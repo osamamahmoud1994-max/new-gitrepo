@@ -1,0 +1,6 @@
+node {
+    stage("List and Greet") {
+        sh "ls"
+        sh "echo hello world"
+    }
+}
